@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cm5
+data:
+  DATABASE_URL: www.db.com
+  PORT: "3306"
+  API_KEY: your-api-key
